@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["DeviceInfoSdkModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.deviceinfosdk.DeviceInfoSdkModule"]
+  }
+}
