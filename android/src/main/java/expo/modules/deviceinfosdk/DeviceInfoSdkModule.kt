@@ -5,6 +5,11 @@ import expo.modules.kotlin.modules.ModuleDefinition
 import java.net.URL
 
 class DeviceInfoSdkModule : Module() {
+
+  fun sayHello(): String {
+    return "Hello world! 👋"
+  }
+
   // Each module class must implement the definition function. The definition consists of components
   // that describes the module's functionality and behavior.
   // See https://docs.expo.dev/modules/module-api for more details about available components.
